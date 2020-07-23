@@ -18,7 +18,7 @@ int main()
 	for (int i = 0; i < 10; i++)
 	{
 		cout << "a["<<i<<"] = "<< *p << endl;
-		p = p + 1;//p是int类型 p+1 内存地址 加 4
+		p = p + 1;//p是int*类型 p+1 内存地址 加 4
 	}
 
 	system("pause");
