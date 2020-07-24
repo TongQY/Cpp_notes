@@ -22,7 +22,7 @@ class person
 public:
 	//1.类内实现
 
-	//friend void printperson(person<T1, T2> p)//加上friend成为全局函数
+	//friend void printperson(person<T1, T2> p)
 	//{
 	//	cout << " p.m_age:" << p.m_age << endl;
 	//	cout << " p.m_name:" << p.m_name<<endl;
