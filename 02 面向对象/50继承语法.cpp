@@ -46,7 +46,7 @@ void test01()
 	cout<<sizeof(s)<<endl;//20
 	//多个父类同名成员，加作用域区分
 	cout <<"s.base1::m_a = "<<s.base1::m_a << endl;//s.base1::m_a = 100
-	cout <<"s.base2::m_a = "<<s.base2::m_a << endl;//s.base1::m_a = 2000
+	cout <<"s.base2::m_a = "<<s.base2::m_a << endl;//s.base2::m_a = 2000
 }
 
 int main()
